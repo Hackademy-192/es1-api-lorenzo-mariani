@@ -7,7 +7,7 @@
     <title>Document</title>
     @vite(['resources/css/app.css'])
 </head>
-<body style="background-image: url('{{ asset('img/background.jpg') }}'); background-size: cover;">
+<body style="background-image: url('{{ asset('img/background.jpg') }}'); background-size: cover;"@j>
 
     <x-navbar />
 {{$slot}}

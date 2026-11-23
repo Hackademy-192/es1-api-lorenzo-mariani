@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">roma</a>
+          <a class="nav-link active" aria-current="page" href="{{ route('roma') }}">roma</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">milano</a>
+          <a class="nav-link" href="{{ route('milano') }}">milano</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#" role="button" aria-current="page">
+          <a class="nav-link" href="{{ route('iscritti') }}" role="button" aria-current="page">
            iscritti
           </a>
         </li>
